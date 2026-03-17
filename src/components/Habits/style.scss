@@ -1,0 +1,23 @@
+.habits-container {
+  .header {
+    .habit {
+
+    }
+  }
+  .content {
+    .weeks {
+      display: flex;
+      gap: 1ex;
+      .week {
+        text-align: center;
+        .days {
+          display: flex;
+          gap: 1ex;
+        }
+      }
+    }
+    .checkbox {
+
+    }
+  }
+}
