@@ -19,9 +19,6 @@ export default function MainPage({ children }: props) {
 
   return (
     <div className={'main-page'}>
-      <div className={'main-page__header'}>
-        <h1 className={'title'}>{currentPageLabel}</h1>
-      </div>
       <div className={'main-page__content'}>
         {children}
       </div>
